@@ -1,6 +1,8 @@
 # react-thailand-address-autocomplete
 Auto-complete Thailand address input component for React.js
 
+[Project's Github](https://github.com/winChawakorn/react-thailand-address-autocomplete)
+
 
 <img src="https://raw.githubusercontent.com/winChawakorn/react-thailand-address-autocomplete/master/assets/react-thailand-address-autocomplete.gif" height="350px" />
 
@@ -55,3 +57,6 @@ import InputAddress from 'react-thailand-address-autocomplete'
     );
   }
 ```
+
+## License
+MIT
