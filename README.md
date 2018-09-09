@@ -1,5 +1,5 @@
 # react-thailand-address-autocomplete
-Auto-complete Thailand address input component for React.js
+Autocomplete Thailand address input component for React.js
 
 [Project's Github](https://github.com/winChawakorn/react-thailand-address-autocomplete)
 
@@ -75,11 +75,11 @@ import InputAddress from 'react-thailand-address-autocomplete'
 
 **onSelect: Function**
 
-- The callback function that is triggered when an auto-complete suggestion item is selected.
+- The callback function that is triggered when an autocomplete suggestion item is selected.
 
 **delimiter: String**
 
-- The delimiter in auto-complete suggestion items that separate each part of address.
+- The delimiter in autocomplete suggestion items that separate each part of address.
 
 - Default value: `, `
 
@@ -89,13 +89,13 @@ import InputAddress from 'react-thailand-address-autocomplete'
 
 **highlight: String**
 
-- Highlight color of an auto-complete suggestion item when a cursor on.
+- Highlight color of an autocomplete suggestion item when a cursor on.
 
 - Default value: `#eee`
 
 **unhighlight: String**
 
-- Color of an auto-complete suggestion item when no cursor on.
+- Color of an autocomplete suggestion item when no cursor on.
 
 - Default value: `white`
 
@@ -105,7 +105,7 @@ import InputAddress from 'react-thailand-address-autocomplete'
 
 **renderStyle: Object**
 
-- Inline style to apply to the box of auto-complete suggestion items.
+- Inline style to apply to the box of autocomplete suggestion items.
 
 ## Original idea
 [zapkub](https://github.com/zapkub/react-thailand-address-typeahead) and [earthchie](https://github.com/earthchie/jquery.Thailand.js)
