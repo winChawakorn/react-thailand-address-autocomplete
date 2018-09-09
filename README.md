@@ -3,8 +3,7 @@ Autocomplete Thailand address input component for React.js
 
 [Project's Github](https://github.com/winChawakorn/react-thailand-address-autocomplete)
 
-
-<img src="https://raw.githubusercontent.com/winChawakorn/react-thailand-address-autocomplete/master/assets/react-thailand-address-autocomplete.gif" height="350px" />
+<a href="https://github.com/winChawakorn/react-thailand-address-autocomplete.git" target="_blank"><img src="https://raw.githubusercontent.com/winChawakorn/react-thailand-address-autocomplete/master/assets/react-thailand-address-autocomplete.gif" height="350px"/></a>
 
 ## Insallation
 **yarn**
