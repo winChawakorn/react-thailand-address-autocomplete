@@ -15,7 +15,7 @@ yarn add react-thailand-address-autocomplete
 ```
 npm install --save react-thailand-address-autocomplete
 ```
-## Usage
+## Basic Usage
 ```js
 import InputAddress from 'react-thailand-address-autocomplete'
 ```
