@@ -3,15 +3,6 @@
   "version": "0.0.1",
   "description": "Put a description here",
   "main": "build/index.js",
-  "peerDependencies": {
-    "react": "^15.5.4"
-  },
-  "dependencies": {
-    "prop-types": "^15.6.2",
-    "react": "^16.2.0",
-    "react-dom": "^16.5.0",
-    "webpack": "^2.6.1"
-  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack --watch",
@@ -20,6 +11,16 @@
   "author": {
     "name": "Chawakorn Suphepre",
     "email": "win.chawakorn@gmail.com"
+  },
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^15.5.4"
+  },
+  "dependencies": {
+    "prop-types": "^15.6.2",
+    "react": "^16.2.0",
+    "react-dom": "^16.5.0",
+    "webpack": "^2.6.1"
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",
