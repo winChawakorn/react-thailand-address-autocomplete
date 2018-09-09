@@ -58,5 +58,8 @@ import InputAddress from 'react-thailand-address-autocomplete'
   }
 ```
 
+## Original idea
+[zapkub](https://github.com/zapkub/react-thailand-address-typeahead) and [earthchie](https://github.com/earthchie/jquery.Thailand.js)
+
 ## License
 MIT
