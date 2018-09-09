@@ -58,6 +58,55 @@ import InputAddress from 'react-thailand-address-autocomplete'
   }
 ```
 
+## Props
+**address: String**
+
+- Type of input address, including `subdistrict`, `district`, `province`, and `zipcode`.
+
+- Default value: `subdistrict`
+
+**value: String**
+
+- The input content value.
+
+**onChange: Function**
+
+- The callback function that is triggered when the input content is changed.
+
+**onSelect: Function**
+
+- The callback function that is triggered when an auto-complete suggestion item is selected.
+
+**delimiter: String**
+
+- The delimiter in auto-complete suggestion items that separate each part of address.
+
+- Default value: `, `
+
+**placeholder: String**
+
+- Placeholder of the input.
+
+**highlight: String**
+
+- Highlight color of an auto-complete suggestion item when a cursor on.
+
+- Default value: `#eee`
+
+**unhighlight: String**
+
+- Color of an auto-complete suggestion item when no cursor on.
+
+- Default value: `white`
+
+**style: Object**
+
+- Inline style to apply to the input.
+
+**renderStyle: Object**
+
+- Inline style to apply to the box of auto-complete suggestion items.
+
 ## Original idea
 [zapkub](https://github.com/zapkub/react-thailand-address-typeahead) and [earthchie](https://github.com/earthchie/jquery.Thailand.js)
 
