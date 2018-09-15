@@ -77,10 +77,21 @@ import InputAddress from 'react-thailand-address-autocomplete'
 **onSelect: Function(fullAddress)**
 
 - The callback function that is triggered when an autocomplete suggestion item is selected.
+- `fullAddress` is an object of full address.
 
 **filter: Function(items)**
 
 - The callback function that is triggered before suggestion items rendered.
+- `items` is an array of suggestion items.
+```js
+<InputAddress
+  address="province"
+  value={this.state.province}
+  onChange={this.onChange}
+  onSelect={this.onSelect}
+  filter={(items) => items.filter(item => item.province !== 'กรุงเทพมหานคร')}
+/>
+```
 
 **delimiter: String**
 
