@@ -1266,8 +1266,10 @@ var ThailandAddress = function (_Component) {
         default:
       }
       var search = _reactThaiAddress2.default.search(_defineProperty({}, searchKey, e.target.value), 10);
+      var _search = this.props.filter ? this.props.filter(search) : search;
+      _search = _search ? _search : search;
       this.setState({
-        items: search.map(function (item, key) {
+        items: _search.map(function (item, key) {
           return {
             key: key,
             label: '' + item.tumbon + delimiter + item.city + delimiter + item.province + delimiter + item.zipcode

@@ -78,6 +78,10 @@ import InputAddress from 'react-thailand-address-autocomplete'
 
 - The callback function that is triggered when an autocomplete suggestion item is selected.
 
+**filter: Function**
+
+- The callback function that is triggered before suggestion items rendered. 
+
 **delimiter: String**
 
 - The delimiter in autocomplete suggestion items that separate each part of address.

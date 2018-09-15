@@ -26,8 +26,10 @@ class ThailandAddress extends Component {
       default:
     }
     const search = ThaiAddress.search({ [searchKey]: e.target.value }, 10)
+    let _search = this.props.filter ? this.props.filter(search) : search
+    _search = _search ? _search : search
     this.setState({
-      items: search.map((item, key) => {
+      items: _search.map((item, key) => {
         return {
           key,
           label: `${item.tumbon}${delimiter}${item.city}${delimiter}${item.province}${delimiter}${item.zipcode}`
