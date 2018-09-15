@@ -70,17 +70,17 @@ import InputAddress from 'react-thailand-address-autocomplete'
 
 - The input content value.
 
-**onChange: Function**
+**onChange: Function(event)**
 
 - The callback function that is triggered when the input content is changed.
 
-**onSelect: Function**
+**onSelect: Function(fullAddress)**
 
 - The callback function that is triggered when an autocomplete suggestion item is selected.
 
-**filter: Function**
+**filter: Function(items)**
 
-- The callback function that is triggered before suggestion items rendered. 
+- The callback function that is triggered before suggestion items rendered.
 
 **delimiter: String**
 
