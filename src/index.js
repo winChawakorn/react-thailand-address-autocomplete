@@ -80,6 +80,8 @@ class ThailandAddress extends Component {
               ...this.menuStyle,
               zIndex: '999',
               position: 'absolute',
+              top: auto,
+              left: auto,
             }}>
               {items}
             </div>
@@ -99,7 +101,7 @@ class ThailandAddress extends Component {
           onChange={(e) => this.handleChange(e)}
           onSelect={(value) => this.handelSelect(value)}
         />
-      </div >
+      </div>
     )
   }
 }
