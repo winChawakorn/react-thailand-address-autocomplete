@@ -80,8 +80,8 @@ class ThailandAddress extends Component {
               ...this.menuStyle,
               zIndex: '999',
               position: 'absolute',
-              top: auto,
-              left: auto,
+              top: 'auto',
+              left: 'auto',
             }}>
               {items}
             </div>
