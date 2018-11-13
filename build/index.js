@@ -1327,8 +1327,8 @@ var ThailandAddress = function (_Component) {
               { style: _extends({}, style, _this2.menuStyle, {
                   zIndex: '999',
                   position: 'absolute',
-                  top: auto,
-                  left: auto
+                  top: 'auto',
+                  left: 'auto'
                 }) },
               items
             );
